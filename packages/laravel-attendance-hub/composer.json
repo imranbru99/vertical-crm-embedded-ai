@@ -1,0 +1,19 @@
+{
+    "name": "imrandevbd/laravel-attendance-hub",
+    "description": "Local Laravel 13 compatibility shim for attendance hub integration (upstream Packagist package targets illuminate/support ^10|^11|^12).",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{"name": "Imran Ahmed", "email": "me@imrandev.bd"}],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImranDevBD\\AttendanceHub\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version": "dev-main"
+}

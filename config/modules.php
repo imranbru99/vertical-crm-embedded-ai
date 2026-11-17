@@ -1,0 +1,68 @@
+<?php
+
+return [
+    'contacts' => [
+        'enabled' => (bool) env('MODULE_CONTACTS', true),
+        'name' => 'Contacts',
+        'description' => 'People records with lifecycle, vertical tags, and ownership for specialized sales teams.',
+        'category' => 'crm',
+        'hours_saved_weekly' => 12,
+        'core' => true,
+    ],
+    'deals' => [
+        'enabled' => (bool) env('MODULE_DEALS', true),
+        'name' => 'Deals',
+        'description' => 'Opportunities with amount, close date, forecast category, and AI win score.',
+        'category' => 'crm',
+        'hours_saved_weekly' => 18,
+        'core' => true,
+    ],
+    'pipeline' => [
+        'enabled' => (bool) env('MODULE_PIPELINE', true),
+        'name' => 'Pipeline',
+        'description' => 'Configurable stages, probabilities, and won/lost terminals for vertical motions.',
+        'category' => 'crm',
+        'hours_saved_weekly' => 10,
+        'core' => true,
+    ],
+    'scoring_ai' => [
+        'enabled' => (bool) env('MODULE_SCORING_AI', true),
+        'name' => 'Scoring AI',
+        'description' => 'Embedded win-probability scoring with explainable signal breakdown.',
+        'category' => 'ai',
+        'hours_saved_weekly' => 16,
+        'core' => false,
+    ],
+    'next_best_actions' => [
+        'enabled' => (bool) env('MODULE_NEXT_BEST_ACTIONS', true),
+        'name' => 'Next-Best Actions',
+        'description' => 'Ranked calls, emails, and tasks prioritized by revenue impact.',
+        'category' => 'ai',
+        'hours_saved_weekly' => 14,
+        'core' => false,
+    ],
+    'vertical_fields' => [
+        'enabled' => (bool) env('MODULE_VERTICAL_FIELDS', true),
+        'name' => 'Vertical Fields',
+        'description' => 'Industry-specific field packs for dental, legal, HVAC, and more.',
+        'category' => 'crm',
+        'hours_saved_weekly' => 9,
+        'core' => false,
+    ],
+    'revenue_workflows' => [
+        'enabled' => (bool) env('MODULE_REVENUE_WORKFLOWS', true),
+        'name' => 'Revenue Workflows',
+        'description' => 'Triggered playbooks with SLAs and run history for niche revenue teams.',
+        'category' => 'automation',
+        'hours_saved_weekly' => 11,
+        'core' => false,
+    ],
+    'activities' => [
+        'enabled' => (bool) env('MODULE_ACTIVITIES', true),
+        'name' => 'Activities',
+        'description' => 'Calls, meetings, and notes tied to contacts and deals.',
+        'category' => 'crm',
+        'hours_saved_weekly' => 8,
+        'core' => true,
+    ],
+];

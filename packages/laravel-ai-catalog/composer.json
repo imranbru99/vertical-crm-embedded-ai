@@ -1,0 +1,24 @@
+{
+    "name": "imrandevbd/laravel-ai-catalog",
+    "description": "AI catalog scrape helpers (local bridge aligning ai-hub constraint for Laravel 13)",
+    "type": "library",
+    "version": "dev-main",
+    "license": "MIT",
+    "authors": [{"name": "Imran Ahmed", "email": "me@imrandev.bd", "homepage": "https://imrandev.bd"}],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0|^13.0",
+        "imrandevbd/laravel-ai-hub": "*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImranDevBd\\AiCatalog\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["ImranDevBd\\AiCatalog\\ServiceProvider"]
+        }
+    },
+    "minimum-stability": "dev"
+}

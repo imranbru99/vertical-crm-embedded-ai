@@ -1,0 +1,10 @@
+{
+    "name": "imrandevbd/drutogoti",
+    "description": "Local Laravel 13 compatibility shim for Drutogoti speed toolkit (upstream targets illuminate ^11|^12).",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{"name": "Imran Ahmed", "email": "me@imrandev.bd"}],
+    "require": {"php": "^8.2", "illuminate/support": "^11.0|^12.0|^13.0"},
+    "autoload": {"psr-4": {"ImranDevBD\\Drutogoti\\": "src/"}},
+    "version": "dev-main"
+}
